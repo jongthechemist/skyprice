@@ -1,0 +1,81 @@
+.result-layout {
+  min-height: 300px;
+}
+
+.result-layout h1,
+.result-layout h2 {
+  font-family: 'Pacifico', cursive;
+}
+
+.result-message {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.result-search-detail {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.result-search-detail .label {
+  font-weight: bold;
+}
+
+.result-layout .card {
+  margin-bottom: 10px;
+  transition: box-shadow 500ms;
+}
+
+.result-layout .card:hover {
+  box-shadow: 0 0px 10px gray;
+}
+
+.result-layout .card-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border: #f46c68 solid 1px;
+}
+
+.result-layout .flight-name {
+  font-weight: bold;
+}
+
+.result-layout .row {
+  height: 100%;
+} 
+
+.result-layout .flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+}
+
+.result-layout .flight-price {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.result-layout .flight-no {
+  font-size: 10px;
+}
+
+.result-layout .flight-time {
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.result-layout .flight-depart::before {
+  content: 'Depart: ';
+  font-weight: bold;
+}
+
+.result-layout .flight-arrive::before {
+  content: 'Arrive: ';
+  font-weight: bold;
+}
+
+.btn {
+  white-space: normal;
+}

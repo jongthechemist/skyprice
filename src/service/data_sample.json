@@ -1,0 +1,89 @@
+
+{
+  "data": [{
+  "flight_id": "111",
+  "departure_flight": {
+    "flight_no": "AI-202",
+    "flight_name": "PNQ > DEL",
+    "depart_time": "10:00 AM",
+    "arrive_time": "12:00 PM",
+    "date": "2018-07-12T02:10:10.000Z"
+  },
+  "arrival_flight": {
+    "flight_no": "AI-203",
+    "flight_name": "DEL > PNQ",
+    "depart_time": "10:00 AM",
+    "arrive_time": "12:00 PM",
+    "date": "2018-09-12T02:10:10.000Z"
+  },
+  "price": "125.00"
+}, {
+  "flight_id": "112",
+  "departure_flight": {
+    "flight_no": "AI-205",
+    "flight_name": "PNQ > DEL",
+    "depart_time": "10:00 AM",
+    "arrive_time": "12:00 PM",
+    "date": "2018-06-12T02:10:10.000Z"
+  },
+  "arrival_flight": {
+    "flight_no": "AI-204",
+    "flight_name": "DEL > PNQ",
+    "depart_time": "10:00 AM",
+    "arrive_time": "12:00 PM",
+    "date": "2018-07-12T02:10:10.000Z"
+  },
+  "price": "125.00"
+}, {
+  "flight_id": "113",
+  "departure_flight": {
+    "flight_no": "AI-206",
+    "flight_name": "PNQ > DEL",
+    "depart_time": "10:00 AM",
+    "arrive_time": "12:00 PM",
+    "date": "2018-07-26T02:10:10.000Z"
+  },
+  "arrival_flight": {
+    "flight_no": "AI-207",
+    "flight_name": "DEL > PNQ",
+    "depart_time": "10:00 AM",
+    "arrive_time": "12:00 PM",
+    "date": "2018-07-30T02:10:10.000Z"
+  },
+  "price": "125.00"
+}, {
+  "flight_id": "114",
+  "departure_flight": {
+    "flight_no": "AI-208",
+    "flight_name": "PNQ > DEL",
+    "depart_time": "10:00 AM",
+    "arrive_time": "12:00 PM",
+    "date": "2018-06-25T02:10:10.000Z"
+  },
+  "arrival_flight": {
+    "flight_no": "AI-209",
+    "flight_name": "DEL > PNQ",
+    "depart_time": "10:00 AM",
+    "arrive_time": "12:00 PM",
+    "date": "2018-06-30T02:10:10.000Z"
+  },
+  "price": "125.00"
+}, {
+  "flight_id": "115",
+  "departure_flight": {
+    "flight_no": "TZ-210",
+    "flight_name": "PNQ > DEL",
+    "depart_time": "10:00 AM",
+    "arrive_time": "12:00 PM",
+    "date": "2018-07-25T02:10:10.000Z"
+  },
+  "arrival_flight": {
+    "flight_no": "MD-212",
+    "flight_name": "DEL > PNQ",
+    "depart_time": "10:00 AM",
+    "arrive_time": "12:00 PM",
+    "date": "2018-07-30T02:10:10.000Z"
+  },
+  "price": "125.00"
+}]
+}

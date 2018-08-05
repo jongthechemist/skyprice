@@ -1,0 +1,51 @@
+
+/*
+body {
+  background: #f3ecdd;
+}
+.App {
+  min-height: 100%;
+  background-image: url('../img/sky.jpg');
+  background-attachment: scroll;
+  background-position: center bottom;
+  background-size: cover;
+}
+*/
+
+.App-logo {
+  animation: App-logo-spin infinite 1s linear;
+  height: 80px;
+}
+
+.App-header {
+  
+  background: linear-gradient(to bottom right, #f46c68, #165493);
+  color: white;
+  
+  font-family: 'Pacifico', cursive;
+  padding: 20px;
+  border-bottom: 1px solid;
+  border-bottom-color: #f46c68;
+  box-shadow: 0 1px 5px gray;
+}
+
+.App-body {
+  margin-top: 20px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.flight-card{
+  flex-direction: row;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
