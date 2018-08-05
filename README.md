@@ -12,7 +12,7 @@ Two main functional components are controlled by their respective containers:
 Component | Container | Action Creator | Reducer | Description
 --- | --- | --- | --- | ---
 SearchLayout | SearchContainer | searchAction | searchReducer | Handle value change events to controlled inputs in the search form. A flight action is dispatched when submit button is clicked 
-ResultLayout | ResultContainer | flightAction | flightReducer | Handle async fetch status change events when fetching data from API server
+ResultLayout | ResultContainer | flightAction | flightReducer | Handle async fetch status change events when fetching data from API server. When sending a fetch request, search state is sent as URL parameters.
 
 ## Dependencies
 
