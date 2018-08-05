@@ -38,7 +38,7 @@ export const fetchFlightSuccess = (search, data)=>{
 export const FETCH_FLIGHT_FAILED = 'FETCH_FLIGHT_FAILED';
 export const fetchFlightFailed = (error)=>{
   return {
-    type: FETCH_FLIGHT_BEGIN,
+    type: FETCH_FLIGHT_FAILED,
     error: error
   }
 }

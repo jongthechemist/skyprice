@@ -3,7 +3,7 @@ import axios from 'axios';
 export default class SkyPriceService {
   
   constructor() {
-    this.ROOT = "http://www.mocky.io/v2/5b5df09532000093031cfa97";
+    this.ROOT = "https://www.mocky.io/v2/5b5df09532000093031cfa97";
   }
 
   getFlights(criteria) {

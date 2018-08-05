@@ -76,6 +76,10 @@
   font-weight: bold;
 }
 
+img.sorry {
+  width: 70%;
+}
+
 .btn {
   white-space: normal;
 }
